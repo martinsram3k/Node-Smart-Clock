@@ -52,6 +52,13 @@ This project is fully **Open-Source**.
 
 ## Support the Project
 
+If you like the **Node Smart Clock**, there are several ways you can support the development:
+
+<!-- * **MakerWorld Crowdfunding:** Support our campaign to help us scale PCB production and DIY kits! -->
+* **Buy Me a Coffee:** Support my work directly at [buymeacoffee.com/martin.sram3k](https://buymeacoffee.com/martin.sram3k).
+* **Follow My Journey:** Check out all my projects and social media via my [Linktree](https://linktr.ee/martin.sram3k).
+
+Your backing helps us continue developing new open-source features and high-quality hardware for the community.
 
 ---
 
