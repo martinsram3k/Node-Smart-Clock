@@ -23,14 +23,26 @@ The project blends modern electronics with premium natural materials:
 
 ## Hardware (BOM)
 
-| Component   | Type            | Function               | Estimated Price |
-| :---------- | :-------------- | :--------------------- | :-------------- |
-| **MCU**     | ESP32-S3        | Core processor & WiFi  | ~$5.00          |
-| **Sensor**  | ENS160          | Air Quality & CO2      | ~$3.00          |
-| **RTC**     | PCF8563T        | High-precision clock   | ~$0.40          |
-| **Battery** | 18650 (3300mAh) | Long-lasting power     | ~$5.00          |
-| **Display** | 2.8" TFT        | User interface         | ~$15.00         |
-| **LEDs**    | 8x Addressable  | Status & Notifications | ~$0.20          |
+| Designator | LCSC #    | Value / Description           | Qty | Unit Price | Ext. Price | Note                     |
+| ---------- | --------- | ----------------------------- | --- | ---------- | ---------- | ------------------------ |
+| U1         | C473012   | ESP32-WROOM-32D-N4            | 1   | $3.78790   | $3.78790   | Main MCU                 |
+| U4         | C15255    | PCF8563T (RTC)                | 1   | $0.32000   | $0.32000   | Not in export, estimated |
+| U5         | C6186     | AMS1117-3.3 (LDO)             | 5   | $0.17350   | $0.86750   | Voltage regulator        |
+| U6         | C16581    | TP4056 (Charger)              | 5   | $0.17840   | $0.89200   | Battery charging         |
+| D1-D8      | C22461793 | WS2812B (RGB LED)             | 8   | $0.03840   | $0.30720   | Addressable LEDs         |
+| D10-D12    | C2128     | 1N4148WS (Diode)              | 4   | $0.02100   | $0.08400   | Power OR Logic           |
+| Q1-Q4      | C318884   | S8050 (Transistor)            | 10  | $0.01250   | $0.12500   | Reset/Motor/Buzzer       |
+| J1         | C2927039  | USB-C 16-pin                  | 1   | $0.23190   | $0.23190   | Power/Data               |
+| BT1        | C70381    | Battery Holder CR1220         | 1   | $0.13840   | $0.13840   | RTC Backup               |
+| C1, C2, C6 | C1525     | 100nF (0402)                  | 100 | $0.00130   | $0.13000   | Minimal order is 100pcs  |
+| C3, C4, C5 | C13585    | 10uF (1206)                   | 10  | $0.02700   | $0.27000   | Power decoupling         |
+| x          | x         | 2.4 Inch TFT Display          | 1   | $5.90000   | $5.90000   | Display                  |
+| x          | x         | H7BC ENS160+AHT21             | 1   | $7.95000   | $7.95000   | temp and co2 sensor      |
+| x          | x         | TTP223                        | 1   | $0.07000   | $0.07000   | touch sensor             |
+| x          | x         | BH1750                        | 1   | $2.49000   | $2.49000   | ambient light sensor     |
+| x          | x         | Mini Vibration Motor          | 1   | $0.41000   | $0.41000   | Mini Vibration Motor     |
+| x          | x         | Passive Buzzer                | 1   | $0.21000   | $0.21000   | Passive Buzzer           |
+| x          | x         | Brass Copper Embed Insert Nut | 8   | $0.04000   | $0.32000   | M3                       |
 
 ## Software & Development
 
@@ -55,8 +67,9 @@ This project is fully **Open-Source**.
 If you like the **Node Smart Clock**, there are several ways you can support the development:
 
 <!-- * **MakerWorld Crowdfunding:** Support our campaign to help us scale PCB production and DIY kits! -->
-* **Buy Me a Coffee:** Support my work directly at [buymeacoffee.com/martin.sram3k](https://buymeacoffee.com/martin.sram3k).
-* **Follow My Journey:** Check out all my projects and social media via my [Linktree](https://linktr.ee/martin.sram3k).
+
+- **Buy Me a Coffee:** Support my work directly at [buymeacoffee.com/martin.sram3k](https://buymeacoffee.com/martin.sram3k).
+- **Follow My Journey:** Check out all my projects and social media via my [Linktree](https://linktr.ee/martin.sram3k).
 
 Your backing helps us continue developing new open-source features and high-quality hardware for the community.
 
