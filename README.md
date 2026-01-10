@@ -1,6 +1,6 @@
 # Node Smart Clock
 
-**Node Smart Clock** is an open-source, multi-functional desk clock powered by the **ESP32-S3**. It is designed as a central hub for makers, entrepreneurs, and crypto enthusiasts, combining advanced environmental sensing with real-time data tracking.
+**Node Smart Clock** is an open-source, multi-functional desk clock powered by the **ESP32-WROOM-32D-N4**. It is designed as a central hub for makers, entrepreneurs, and crypto enthusiasts, combining advanced environmental sensing with real-time data tracking.
 
 ---
 
@@ -19,7 +19,7 @@ The project blends modern electronics with premium natural materials:
 
 - **3D Printed Chassis:** A minimalist housing designed for durability using **brass heat inserts**.
 - **Hybrid Materials:** Front and back panels made of **real wood**, suitable for custom laser engraving.
-- **Custom PCB:** A professional-grade board integrating the ESP32-S3, 18650 battery charging, and all sensors.
+- **Custom PCB:** A professional-grade board integrating the ESP32-S3, 18650 battery charging.
 
 ## Hardware (BOM)
 
@@ -37,12 +37,21 @@ The project blends modern electronics with premium natural materials:
 | C1, C2, C6 | C1525     | 100nF (0402)                  | 100 | $0.00130   | $0.13000   | Minimal order is 100pcs  |
 | C3, C4, C5 | C13585    | 10uF (1206)                   | 10  | $0.02700   | $0.27000   | Power decoupling         |
 | x          | x         | 2.4 Inch TFT Display          | 1   | $5.90000   | $5.90000   | Display                  |
-| x          | x         | H7BC ENS160+AHT21             | 1   | $7.95000   | $7.95000   | temp and co2 sensor      |
-| x          | x         | TTP223                        | 1   | $0.07000   | $0.07000   | touch sensor             |
-| x          | x         | BH1750                        | 1   | $2.49000   | $2.49000   | ambient light sensor     |
+| x          | x         | H7BC ENS160+AHT21             | 1   | $7.95000   | $7.95000   | Temp and co2 sensor      |
+| x          | x         | TTP223                        | 1   | $0.07000   | $0.07000   | Touch sensor             |
+| x          | x         | BH1750                        | 1   | $2.49000   | $2.49000   | Ambient light sensor     |
 | x          | x         | Mini Vibration Motor          | 1   | $0.41000   | $0.41000   | Mini Vibration Motor     |
 | x          | x         | Passive Buzzer                | 1   | $0.21000   | $0.21000   | Passive Buzzer           |
-| x          | x         | Brass Copper Embed Insert Nut | 8   | $0.04000   | $0.32000   | M3                       |
+| x          | x         | Brass Copper Embed Insert Nut | 8   | $0.04000   | $0.32000   | M3xL4xOD4.2              |
+
+## Gallery
+
+<img src="https://placehold.co/1920x1080" width="30%"></img>
+<img src="https://placehold.co/1920x1080" width="30%"></img>
+<img src="https://placehold.co/1920x1080" width="30%"></img>
+<img src="https://placehold.co/1920x1080" width="30%"></img>
+<img src="https://placehold.co/1920x1080" width="30%"></img>
+<img src="https://placehold.co/1920x1080" width="30%"></img>
 
 ## Software & Development
 
@@ -51,14 +60,6 @@ This project is fully **Open-Source**.
 - **Framework:** Arduino IDE / PlatformIO.
 - **Graphics:** Driven by the **LVGL** library for a smooth UI experience.
 - **Connectivity:** Integrated WiFi for NTP time sync and API data fetching.
-
-### Installation
-
-1. Clone the repository:  
-   `git clone https://github.com/your-username/node-smart-clock.git`
-2. Open the project in **PlatformIO**.
-3. Configure your `config.h` with your WiFi credentials and API keys (Shopify/Crypto).
-4. Upload to your ESP32-S3.
 
 ---
 
