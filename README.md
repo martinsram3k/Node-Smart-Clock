@@ -58,7 +58,6 @@ Download sheet for production: [Google sheets](https://docs.google.com/spreadshe
 This project is fully **Open-Source**.
 
 - **Framework:** Arduino IDE / PlatformIO.
-- **Graphics:** Driven by the **LVGL** library for a smooth UI experience.
 - **Connectivity:** Integrated WiFi for NTP time sync and API data fetching.
 
 ---
