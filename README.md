@@ -17,9 +17,9 @@
 
 The project blends modern electronics with premium natural materials:
 
-- **3D Printed Chassis:** A minimalist housing designed for durability using **brass heat inserts**.
+- [**3D Printed Chassis:**](https://github.com/martinsram3k/Node-Smart-Clock/tree/main/3d_models/stl) A minimalist housing designed for durability using **brass heat inserts**.
 - **Hybrid Materials:** Front and back panels made of **real wood**, suitable for custom laser engraving.
-- **Custom PCB:** A professional-grade board integrating the ESP32-S3, 18650 battery charging.
+- [**Custom PCB:** ](https://github.com/martinsram3k/Node-Smart-Clock/tree/main/pcb/esp_smart_clock)A professional-grade board integrating the ESP32-S3, 18650 battery charging.
 
 ## Hardware (BOM)
 
