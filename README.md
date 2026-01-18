@@ -51,7 +51,7 @@ The project blends modern electronics with premium natural materials:
 <img src="https://placehold.co/1920x1080" width="30%"></img>
 <img src="https://placehold.co/1920x1080" width="30%"></img>
 <img src="https://placehold.co/1920x1080" width="30%"></img>
-<img src="https://placehold.co/1920x1080" width="30%"></img>
+<a href="img/IMG_20260118_214504446.jpg" target="_blank" ><img src="img/IMG_20260118_214504446.jpg" width="30%"></img></a>
 
 ## Software & Development
 
