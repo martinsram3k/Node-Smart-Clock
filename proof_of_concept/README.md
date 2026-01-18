@@ -4,6 +4,37 @@
 
 ---
 
+## Wiring diagram
+
+### TFT display 
+- GND -> esp32 GND
+- VCC -> esp32 3.3
+- SCL -> esp32 D18
+- SDA -> esp32 D23
+- RES -> esp32 D16
+- DC -> esp32 D05
+- CS -> esp32 D17
+- BLK -> esp32 D04
+- A -> esp32 D26
+- B -> esp32 D27
+- PUSH -> esp32 D14
+- KO -> esp32 D25
+
+### ENS160+AHT21 sensor
+- 3.3 -> esp32 3.3
+- GND -> esp32 GND
+- SCL -> esp32 D22
+- SDA -> esp32 D21
+- ADD -> esp32 GND
+
+### TTP223
+- GND -> esp32 GND
+- VCC -> esp32 3.3
+- I/O -> esp32 D15
+
+## Code
+
+[https://github.com/martinsram3k/Node-Smart-Clock/tree/main/proof_of_concept/code]
 
 ## Gallery
 
