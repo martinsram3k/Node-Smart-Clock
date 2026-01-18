@@ -40,8 +40,6 @@ The project blends modern electronics with premium natural materials:
 | x          | x         | H7BC ENS160+AHT21             | 1   | $7.95000   | $7.95000   | Temp and co2 sensor      |
 | x          | x         | TTP223                        | 1   | $0.07000   | $0.07000   | Touch sensor             |
 | x          | x         | BH1750                        | 1   | $2.49000   | $2.49000   | Ambient light sensor     |
-| x          | x         | Mini Vibration Motor          | 1   | $0.41000   | $0.41000   | Mini Vibration Motor     |
-| x          | x         | Passive Buzzer                | 1   | $0.21000   | $0.21000   | Passive Buzzer           |
 | x          | x         | Brass Copper Embed Insert Nut | 8   | $0.04000   | $0.32000   | M3xL4xOD4.2              |
 
 ## Gallery
