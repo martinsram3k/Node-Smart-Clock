@@ -42,6 +42,8 @@ The project blends modern electronics with premium natural materials:
 | x          | x         | BH1750                        | 1   | $2.49000   | $2.49000   | Ambient light sensor     |
 | x          | x         | Brass Copper Embed Insert Nut | 8   | $0.04000   | $0.32000   | M3xL4xOD4.2              |
 
+Download sheet for production: [Google sheets](https://docs.google.com/spreadsheets/d/1UgRSESd1yt6WZlXJIY08iRTUC7NtgjKNO3UkqPBUf44/edit?usp=sharing).
+
 ## Gallery
 
 <img src="https://placehold.co/1920x1080" width="30%"></img>
