@@ -34,7 +34,8 @@
 
 ## Code
 
-[https://github.com/martinsram3k/Node-Smart-Clock/tree/main/proof_of_concept/code]
+Link to code and libaries: [code](https://github.com/martinsram3k/Node-Smart-Clock/tree/main/proof_of_concept/code
+).
 
 ## Gallery
 
