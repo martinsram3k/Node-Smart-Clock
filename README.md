@@ -17,9 +17,9 @@
 
 The project blends modern electronics with premium natural materials:
 
-- **3D Printed Chassis:** A minimalist housing designed for durability using **brass heat inserts**.
+- [**3D Printed Chassis:**](https://github.com/martinsram3k/Node-Smart-Clock/tree/main/3d_models/stl) A minimalist housing designed for durability using **brass heat inserts**.
 - **Hybrid Materials:** Front and back panels made of **real wood**, suitable for custom laser engraving.
-- **Custom PCB:** A professional-grade board integrating the ESP32-S3, 18650 battery charging.
+- [**Custom PCB:** ](https://github.com/martinsram3k/Node-Smart-Clock/tree/main/pcb/esp_smart_clock)A professional-grade board integrating the ESP32-S3, 18650 battery charging.
 
 ## Hardware (BOM)
 
@@ -40,9 +40,9 @@ The project blends modern electronics with premium natural materials:
 | x          | x         | H7BC ENS160+AHT21             | 1   | $7.95000   | $7.95000   | Temp and co2 sensor      |
 | x          | x         | TTP223                        | 1   | $0.07000   | $0.07000   | Touch sensor             |
 | x          | x         | BH1750                        | 1   | $2.49000   | $2.49000   | Ambient light sensor     |
-| x          | x         | Mini Vibration Motor          | 1   | $0.41000   | $0.41000   | Mini Vibration Motor     |
-| x          | x         | Passive Buzzer                | 1   | $0.21000   | $0.21000   | Passive Buzzer           |
 | x          | x         | Brass Copper Embed Insert Nut | 8   | $0.04000   | $0.32000   | M3xL4xOD4.2              |
+
+Download sheet for production: [Google sheets](https://docs.google.com/spreadsheets/d/1UgRSESd1yt6WZlXJIY08iRTUC7NtgjKNO3UkqPBUf44/edit?usp=sharing).
 
 ## Gallery
 
@@ -51,14 +51,13 @@ The project blends modern electronics with premium natural materials:
 <img src="https://placehold.co/1920x1080" width="30%"></img>
 <img src="https://placehold.co/1920x1080" width="30%"></img>
 <img src="https://placehold.co/1920x1080" width="30%"></img>
-<img src="https://placehold.co/1920x1080" width="30%"></img>
+<a href="img/IMG_20260118_214504446.jpg" target="_blank" ><img src="img/IMG_20260118_214504446.jpg" width="30%"></img></a>
 
 ## Software & Development
 
 This project is fully **Open-Source**.
 
 - **Framework:** Arduino IDE / PlatformIO.
-- **Graphics:** Driven by the **LVGL** library for a smooth UI experience.
 - **Connectivity:** Integrated WiFi for NTP time sync and API data fetching.
 
 ---
